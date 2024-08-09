@@ -1,0 +1,36 @@
+.cards {
+    display: flex;
+    border: 1px solid lightgrey;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.card-img-top {
+    width: 18rem;
+    height: 200px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 18px;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.btn-primary {
+    white-space: nowrap;
+    border: none;
+    width: 110px;
+    height: 20px;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
